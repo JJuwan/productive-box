@@ -1,4 +1,4 @@
-name: Update gist
+name: README.md
 on:
   push:
     branches:
@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: maxam2017/productive-box@master
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
+          GH_TOKEN: ${{ secrets.me_TOKEN }}
+          GIST_ID: ${{ secrets.Antrhing }}
           TIMEZONE: Asia/Seoul
